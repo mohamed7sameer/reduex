@@ -15,7 +15,13 @@ npm install react-redux
 ------> legacy_createStore as createStore
 
 
-// STORE (state)
-// ACTION
+
+// ACTION -- 1
 // REDUCER
+// STORE (state)
 // DISPATCH
+
+redux devtools extension
+https://github.com/reduxjs/redux-devtools/tree/main/extension#installation
+
+
