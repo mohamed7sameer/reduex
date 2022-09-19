@@ -2,7 +2,7 @@
 const initialState = {
     count: 1
 }
-const counter = (state=initialState,action)=>{
+const counterReducer = (state=initialState,action)=>{
     switch(action.type){
      case 'INC' : return {
         ...state,
@@ -17,4 +17,4 @@ const counter = (state=initialState,action)=>{
    }
    
 
-export default counter
+export default counterReducer
